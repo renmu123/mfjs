@@ -5,8 +5,8 @@ from email.utils import formataddr
 
 class my_mail():
     def __init__(self, text, my_user):
-        self.my_sender = '1101022351@qq.com'  # 发件人邮箱账号
-        self.my_pass = 'FYX9YUECHU6'  # 发件人邮箱密码(当时申请smtp给的口令)
+        self.my_sender = 'xx'  # 发件人邮箱账号
+        self.my_pass = 'xx'  # 发件人邮箱密码(当时申请smtp给的口令)
         self.my_user = my_user  # 收件人邮箱账号，我这边发送给自己
         self.text = text
 
